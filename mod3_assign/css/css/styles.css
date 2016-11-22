@@ -1,0 +1,109 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #F2EEB3;
+    /*Основной цвет     260126   8C6954 доп цвета*/
+    font-family: 'Lato', sans-serif;
+    cursor: default;
+}
+
+#header-nav {
+    background-color: #474A3B;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+h1.text-center {
+    margin-bottom: 30px;
+    font-size: 1.9em;
+}
+
+h2 {
+    color: #000;
+    font-family: 'Acme', sans-serif;
+}
+
+#nav-list {
+    margin-top: 0px;
+}
+
+#nav-list a {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.supr {
+    border-top: 3px solid black;
+}
+
+#collapsable-nav {
+    background-color: #474A3B;
+    border-color: #474A3B;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header {
+    height: 80px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -28px;
+}
+
+.maincont {
+    height: auto;
+    background-color: #9E916A;
+    color: #000;
+    cursor: default;
+    padding: 15px 25px 20px 25px;
+    margin-top: 28px;
+    text-align: justify;
+}
+
+.heading {
+    margin-top: 8px;
+    margin-bottom: 19px;
+    font-weight: bolder;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-top: 0px;
+    }
+    .forxs {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    #collapsable-nav {
+        background-color: #F2EEB3;
+    }
+}
